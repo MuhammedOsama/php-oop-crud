@@ -13,7 +13,7 @@ class dbConfig
 
     public function db_connect()
     {
-        $this->connection = mysqli_connect("localhost", "root", "", "oop_crud");
+        $this->connection = mysqli_connect("localhost", "root", "", "oop_php_crud");
         if (mysqli_connect_error()) {
             die("Connection Failed");
         }
